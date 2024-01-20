@@ -1,0 +1,17 @@
+Bienvenidos a mi proyecto!
+
+Esta carpeta "pymongo" es la carpeta de proyecto integro de VIRTUALENV para usar en Flask
+
+Para daros unas indicaciónes para la busqueda de documentos y de scripts en este proyecto:
+
+	El archivo "login.py" es el pilar de Flask y el que se tiene que ejecutar en el terminal
+	para que arranque el proyecto.
+
+	En la carpeta "templates" estan todos los archivos HTML que se van manejando en la aplicación.
+
+	En la carpeta "static" > "js" > "script.js" estan los scripts de animaciones y de trato de
+	datos con AJAX, con comentarios que explican cada línea de código.
+
+
+Un saludo ('-')
+Pedro Llull

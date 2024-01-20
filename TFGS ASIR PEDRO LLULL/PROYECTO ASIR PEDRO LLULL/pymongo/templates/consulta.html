@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="container">
+    <div class="container"><img src="{{ url_for('static', filename='img/6.jpg') }}"> </div> <br><br><br>
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <form method=POST action="{{ url_for('consulta') }}">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Introduce dato sobre usuarios o sobre películas</label>
+                    <input type="text" class="form-control" name="username" placeholder="Usuario">
+                </div>
+                <button id="boton3" type="submit" class="btn btn-primary btn-block">Consulta gente</button>
+                <button id="boton4" type="submit" class="btn btn-primary btn-block">Consulta pelis</button>
+            </form>
+            <br>
+            <h4>DATOS RESULTANTES:</h4>
+            <div id="datos"> </div><br>
+        </div>
+    </div>
+</div>
+{% endblock %}
